@@ -24,3 +24,11 @@
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.8);
 }
+
+.card-body > .btn{
+font-family: cursive;
+}
+
+.card-body h5{
+    font-family: cursive;
+}
