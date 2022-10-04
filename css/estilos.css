@@ -1,11 +1,23 @@
+h2{
+text-align: center;
+font-family: cursive;
+margin-bottom: 50px;
+}
+
 .content {
     margin-top: 20px;
     margin-bottom: 15px;
     border: solid 2px red;
 }
 
+
+.content ul{
+    padding-bottom: 18px;
+}
+
 .content li {
     border: solid 1px black;
+    text-align: center;
 }
 
 .row {
@@ -15,9 +27,13 @@
     padding-left: 10px;
 }
 
+.row h2{
+padding-bottom: 15px;
+}
+
 .card {
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .card img{
