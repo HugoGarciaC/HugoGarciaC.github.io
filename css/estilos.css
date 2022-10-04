@@ -1,0 +1,26 @@
+.content {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: solid 2px red;
+}
+
+.content li {
+    border: solid 1px black;
+}
+
+.row {
+    border: solid 1px black;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.card {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.8);
+}
