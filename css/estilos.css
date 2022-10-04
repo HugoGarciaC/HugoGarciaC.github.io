@@ -1,42 +1,60 @@
-h2{
-text-align: center;
-font-family: cursive;
-margin-bottom: 50px;
+body {
+    background-color: #E4E4E1;
+    background-image: radial-gradient(at top center, rgba(255, 255, 255, 0.03) 0%, rgba(0, 0, 0, 0.03) 100%), linear-gradient(to top, rgba(255, 255, 255, 0.1) 0%, rgba(143, 152, 157, 0.60) 100%);
+    background-blend-mode: normal, multiply;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    margin-bottom: 50px;
 }
 
 .content {
     margin-top: 20px;
     margin-bottom: 15px;
-    border: solid 2px red;
 }
 
 
-.content ul{
+.content ul {
     padding-bottom: 18px;
 }
 
 .content li {
     border: solid 1px black;
     text-align: center;
+    font-family: cursive;
 }
 
 .row {
-    border: solid 1px black;
     justify-content: space-around;
     padding-top: 15px;
     padding-left: 10px;
 }
 
-.row h2{
-padding-bottom: 15px;
+.row h2 {
+    padding-bottom: 15px;
+    font-weight: bold;
 }
 
 .card {
+    background: #FFB75E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ED8F03, #FFB75E);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ED8F03, #FFB75E);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     margin-top: 15px;
     margin-bottom: 30px;
 }
 
-.card img{
+.card-text{
+    font-family: cursive;
+}
+
+.card img {
     background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
@@ -45,11 +63,12 @@ padding-bottom: 15px;
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.8);
 }
 
-.card-body > .btn{
-font-family: cursive;
+.card-body>.btn {
+    font-family: cursive;
 }
 
-.card-body h5{
+.card-body h5 {
     font-family: cursive;
+    font-weight: bold;
     text-align: center;
 }
