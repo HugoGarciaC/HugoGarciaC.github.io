@@ -20,6 +20,10 @@
     margin-bottom: 20px;
 }
 
+.card img{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
 .card:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.8);
@@ -31,4 +35,5 @@ font-family: cursive;
 
 .card-body h5{
     font-family: cursive;
+    text-align: center;
 }
